@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador De Constraseñas</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="../../img/icons8.png" type="image/x-icon">
+
+<link rel="stylesheet" href="../../css/estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+    
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+          <span class="material-icons">menu</span>
+        </button>
+        <h1 class="navbar-title">Password</h1>
+        <nav class="navbar-menu">
+          <a type="button" href="../../views/proyectos.html" style="color: #f9f9f9; font-size: medium;">Proyectos</a>
+        </nav>
+      </nav>
+      <script type="text/javascript" src="../../css/main.js"></script>
+
+<div class="pw-container">
+<div class="pw-header">
+<div class="pw">
+<span id="pw">Contraseña Aquí</span>
+<button id="copy">Copy</button>
+</div>
+</div>
+<div class="pw-body">
+<div class="form-control">
+<lable for="length">Longitud de la Contraseña</lable>
+<input id="len" value="10" type="number" min="8" max="30">
+</div>
+<div class="form-control">
+<lable for="upper">Contener letras Mayúsculas</lable>
+<input id="upper" type="checkbox">
+</div>
+<div class="form-control">
+<lable for="lower">Contener letras Minúsculas</lable>
+<input id="lower" type="checkbox">
+</div>
+<div class="form-control">
+<lable for="number">Contener Números </lable>
+<input id="number" type="checkbox">
+</div>
+<div class="form-control">
+<lable for="symbol">Contener Símbolo</lable>
+<input id="symbol" type="checkbox">
+</div>
+<button class="generate" id="generate">Generar Contraseña</button>
+</div>
+</div>
+<script src="code.js"></script><br>
+
+</body>
+</html>
