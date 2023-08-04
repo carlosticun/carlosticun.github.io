@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Pagina</title>
+    <link rel="shortcut icon" href="img/icons8.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+  
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+          <span class="material-icons">menu</span>
+        </button>
+        <h1 class="navbar-title">Inicio</h1>
+        <nav class="navbar-menu">
+          <a type="button" href="index.html" style="color: #f9f9f9;" class="active">Inicio</a>
+          <!---<a type="button" href="./views/quien.html" style="color: #f9f9f9;">Quien Soy</a>-->
+          <a type="button" href="./views/habilidades.html" style="color: #f9f9f9;">Habilidades</a>
+          <a type="button" href="./views/lenguajes.html" style="color: #f9f9f9;">Lenguajes de 'P' que Domino</a>
+          <a type="button" href="./views/proyectos.html" style="color: #f9f9f9;">Proyectos</a>
+        </nav>
+      </nav>
+      <script type="text/javascript" src="./css/main.js"></script>
+    <header>
+        <section class="textos-header">
+            <h1>Bienvenido a mí Página</h1>
+            <h2>Carlos Geovani Ticún López.</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main> 
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Mis gustos Por la Música</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/iron.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=X4bgXH3sJ2Q">Iron Maiden</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/metallica.webp" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=WLubS6QOMsQ">Metallica</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/slipknot.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=V3ADK6gsDGg">Slipknot</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/pantera.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=i97OkCXwotE">Pantera</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/sleeping.png" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://youtu.be/7HjBq9aZ9cw?t=85">sleeping with sirens</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/pierce2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://youtu.be/icXUkIfZxyg?t=56">Pierce The Veil</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/disturbed.webp" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=09LTT0xwdfw">Disturbed</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/Foo.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=SBjQ9tuuTJQ">Foo Fighters</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Mis Lenguajes de Programación Favoritos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/php.webp" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>PHP</h4>
+                        <p>PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue
+                             creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/c.webp" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>C++</h4>
+                        <p>C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación C 
+                            y añadir mecanismos que permiten la manipulación de objetos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="img/icons8.png" alt="Carlos Ticún">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>CONTÁCTAME</h2>
+                <p style="font-size: medium;">NÚMERO: <a style="font-size: medium;" href="https://api.whatsapp.com/send?phone=50246171290&text=Hola%20Guapo.">4617-1290</a></p>
+                <p>CORREO: geovaniticun1010@gmail.com</p>
+            </div>
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/geovanny.ticun.5/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/g3.metal_/" class="fa fa-instagram"></a>
+                    <a href="https://mobile.twitter.com/GcTicun" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UCPhbS0pTev5R4SlhlU1pXtA" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Gc Tm</b> - Carlos Geovani Ticún López.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
